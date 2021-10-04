@@ -1,0 +1,27 @@
+
+.router-menu{
+  margin-top:4%; 
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  /* border:1px solid black; */
+  grid-column-gap: 20%;
+  padding:8px 8px; 
+  
+}
+.deposite-router ,  .withdraw-router {
+  width:120%;
+  
+  background: rgb(55, 33, 133); 
+  text-decoration:none; 
+  color:white;
+  padding-top: 4%;
+  padding-bottom: 4%; 
+  font-size: 20px; 
+  border-radius: 8px;
+  }
+  .withdraw-router{
+    background: rgb(211, 207, 207);
+    color:black;
+    border:2px solid rgb(55, 33, 133);
+  }
+  
