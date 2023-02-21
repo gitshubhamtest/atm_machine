@@ -12,6 +12,7 @@ export default function App() {
       <BrowserRouter> 
       <div className="router-menu">
       <div> <h2>Hello ATM</h2></div>
+      <h5>Welcome to universal atm machine</h5>
       <Link to="/"  className="deposite-router">Deposite</Link>
       <Link to="/withdraw"  className="withdraw-router">Withdraw</Link>
       </div>
