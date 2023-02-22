@@ -11,8 +11,7 @@ export default function App() {
     <div className="App">
       <BrowserRouter> 
       <div className="router-menu">
-      <div> <h2>Hello ATM</h2></div>
-      
+      <div></div>
       <Link to="/"  className="deposite-router">Deposite</Link>
       <Link to="/withdraw"  className="withdraw-router">Withdraw</Link>
       </div>
